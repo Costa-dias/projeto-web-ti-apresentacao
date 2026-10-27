@@ -1,5 +1,18 @@
 # Auditoria de segurança — 27/10/2026
 
+## Atualização: integração e implantação autorizadas em 27/10/2026
+
+Após a auditoria inicial, o proprietário autorizou integrar as correções e realizar o deploy, mantendo o Supabase sem testes enquanto estiver hibernando. Esta seção registra o estado posterior e substitui as pendências de merge/deploy mencionadas no registro inicial abaixo. Os limites de auditoria e de testes não executados continuam válidos.
+
+Commit auditado integrado à `main`: `95efe446e13e237a6da6e266b5623b53ba693e2c`.
+
+Não há aplicação executável deste repositório público para publicar. Documentação e controles de CI foram integrados à `main`; nenhuma aplicação privada vinculada foi alterada.
+
+Nenhuma tabela, política RLS, configuração Supabase, credencial ou dado de usuário foi alterado. O registro abaixo descreve a etapa inicial, anterior à autorização de deploy. Esta atualização é somente documental e usa `[skip render]` para não provocar outro deploy.
+
+---
+
+
 Repositório: `Costa-dias/projeto-web-ti-apresentacao`. Responsável: Codex. Base auditada: `61325c9bb3803a1aa57b258d9e19a3c6328948ec`.
 Branch de trabalho: `security/audit-2026-10-27`. Este relatório acompanha o commit de correção/documentação desta branch; consulte seu SHA no histórico do arquivo.
 
