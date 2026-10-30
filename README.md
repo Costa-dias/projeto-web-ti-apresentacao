@@ -1,8 +1,10 @@
 # Projeto Web Privado | Tecnologia e Automação
 
-**Versão apresentada: 2.0.0 · atualizado em 30/10/2026**
+**Versão apresentada: 2.0.1 · atualizado em 30/10/2026**
 
 Evolução da consulta técnica para gestão de OS: cadastro, continuação, edição, exclusão confirmada, CSV, recorrências e diagnóstico com revisão antes da IA.
+
+Correção de manutenção em 30/10/2026: Vite atualizado para 6.4.5, corrigindo o GHSA-8g5g-mxqh-grgj.
 
 [Notas da versão](RELEASES.md). A numeração identifica a aplicação privada apresentada aqui.
 
