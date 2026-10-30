@@ -1,5 +1,11 @@
 # Projeto Web Privado | Tecnologia e Automação
 
+**Versão apresentada: 2.0.0 · atualizado em 30/10/2026**
+
+Evolução da consulta técnica para gestão de OS: cadastro, continuação, edição, exclusão confirmada, CSV, recorrências e diagnóstico com revisão antes da IA.
+
+[Notas da versão](RELEASES.md). A numeração identifica a aplicação privada apresentada aqui.
+
 **Desenvolvimento autoral • Aplicação Web • Integração de APIs • Inteligência Artificial**
 
 ## Sobre o projeto
@@ -31,7 +37,7 @@ O projeto foi desenvolvido para funcionar em ambiente privado, com autenticaçã
 
 ## Resultados
 
-A aplicação está funcional em ambiente privado, com recursos de consulta, integração de dados e análise assistida por IA.
+A aplicação está funcional em ambiente privado, com recursos de consulta, gestão de OS, análise de recorrências, exportação CSV e diagnóstico assistido por IA após revisão.
 
 O projeto também proporcionou experiência prática com configuração de serviços, depuração de integrações, testes e manutenção contínua.
 
