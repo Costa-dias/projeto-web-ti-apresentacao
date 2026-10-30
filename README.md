@@ -1,6 +1,6 @@
 # Projeto Web Privado | Tecnologia e Automação
 
-**Versão apresentada: 2.0.1 · atualizado em 30/10/2026**
+**Versão apresentada: 2.0.2 · atualizado em 30/10/2026**
 
 Evolução da consulta técnica para gestão de OS: cadastro, continuação, edição, exclusão confirmada, CSV, recorrências e diagnóstico com revisão antes da IA.
 
@@ -54,3 +54,6 @@ O código-fonte completo, as configurações de produção, as credenciais e os 
 ---
 
 *Projeto autoral desenvolvido para aprendizado contínuo e evolução profissional em Tecnologia da Informação.*
+
+
+Manutenção de 30/10/2026: bibliotecas compatíveis atualizadas e verificações de regressão executadas. [Relatório completo dos projetos](https://github.com/Costa-dias/Portofolio/blob/main/docs/ATUALIZACOES_TODOS_OS_PROJETOS_2026-10-30.md).
