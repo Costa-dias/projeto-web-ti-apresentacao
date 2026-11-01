@@ -1,6 +1,6 @@
 # Projeto Web Privado | Tecnologia e Automação
 
-**Versão apresentada: 2.0.2 · atualizado em 30/10/2026**
+**Versão apresentada: 2.1.1 · atualizado em 01/11/2026**
 
 Evolução da consulta técnica para gestão de OS: cadastro, continuação, edição, exclusão confirmada, CSV, recorrências e diagnóstico com revisão antes da IA.
 
@@ -57,3 +57,15 @@ O código-fonte completo, as configurações de produção, as credenciais e os 
 
 
 Manutenção de 30/10/2026: bibliotecas compatíveis atualizadas e verificações de regressão executadas. [Relatório completo dos projetos](https://github.com/Costa-dias/Portofolio/blob/main/docs/ATUALIZACOES_TODOS_OS_PROJETOS_2026-10-30.md).
+
+
+## Atualizações de 01/11/2026
+
+- Menu Pendências com contador e separação de registros sem informação de conclusão.
+- Indicador de OS nos últimos dias com período editável, começando em 30 dias.
+- Contagem de menções aos sistemas MV e Biomega nos registros.
+- Consumo diário de tokens informado pela API Gemini, registrado neste navegador; não representa saldo da franquia nem sincronização entre dispositivos.
+- “Feito e testado” reconhece a execução e validação com o usuário.
+- Edição de datas antigas com ano curto e conclusão retroativa em outro mês, na mesma aba e linha.
+
+Os exemplos públicos não expõem chamados ou dados privados. A análise com Gemini depende de revisão prévia e autorização.
