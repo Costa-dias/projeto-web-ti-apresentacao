@@ -1,6 +1,6 @@
 # Projeto Web Privado | Tecnologia e Automação
 
-**Versão apresentada: 2.1.1 · atualizado em 01/11/2026**
+**Versão apresentada: 2.1.2 · atualizado em 01/11/2026**
 
 Evolução da consulta técnica para gestão de OS: cadastro, continuação, edição, exclusão confirmada, CSV, recorrências e diagnóstico com revisão antes da IA.
 
