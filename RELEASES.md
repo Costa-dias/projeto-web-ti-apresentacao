@@ -1,16 +1,19 @@
-# Versão apresentada
+# Evolução apresentada
 
-**Versão 2.0.2 · atualizado em 30/10/2026**
+## 3.2.0 — revisão de 06/11/2026
 
-Evolução da consulta técnica para gestão de OS: cadastro, continuação, edição, exclusão confirmada, CSV, recorrências e diagnóstico com revisão antes da IA.
+Agrupamento visual das unidades/setores por maiúsculas, cobertura dos indicadores e consulta de registros com datas inválidas ou unidade ausente. Ajuste do texto sobre sincronização da biblioteca. Sem migração automática dos dados.
 
-Marco consolidado após revisão do projeto. A numeração anterior foi normalizada; não representa uma sequência de releases antigas formalmente publicadas. Este repositório é uma apresentação; código, credenciais e dados de produção permanecem privados.
+## 3.1.2 — 05/11/2026
 
-## Revisão 2.0.1
+Reautenticação com comportamento padrão do Google, preservando sessões válidas e o controle de navegador confiável.
 
-Vite 6.4.4 → 6.4.5 para corrigir [GHSA-8g5g-mxqh-grgj](https://github.com/advisories/GHSA-8g5g-mxqh-grgj). Build e 57 testes passaram; a numeração principal do produto permanece 2.
+## Evolução de 03/11/2026
 
+Base de Conhecimento e filtros por sistema, vínculo com OS, dashboard, OS Geral, artigos e favoritos compartilhados na planilha, histórico de alterações e gerenciamento de sessões.
 
-## Revisão 2.0.2 — 30/10/2026
+## Linha 2.x — outubro de 2026
 
-Atualizações compatíveis de dependências, com build e testes de regressão. A aplicação Assistente de TI mantém sua finalidade e seu modelo de acesso. Detalhes no relatório consolidado do portfólio.
+Consolidação da consulta técnica em gestão de OS, exportação CSV, recorrências e revisão antes do Gemini.
+
+Este repositório contém somente apresentação. A revisão documentada não comprova implantação: a versão publicada aparece no rodapé privado da aplicação.

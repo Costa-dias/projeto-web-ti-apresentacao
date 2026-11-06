@@ -1,71 +1,32 @@
-# Projeto Web Privado | Tecnologia e Automação
+# Assistente de TI — apresentação profissional
 
-**Versão apresentada: 2.1.2 · atualizado em 01/11/2026**
+**Versão documentada: 3.2.0 · revisão em 06/11/2026**
 
-Evolução da consulta técnica para gestão de OS: cadastro, continuação, edição, exclusão confirmada, CSV, recorrências e diagnóstico com revisão antes da IA.
+Aplicação privada desenvolvida para organizar atendimentos de TI, consultar soluções anteriores e manter uma biblioteca técnica. Esta apresentação não oferece acesso à aplicação nem divulga código privado ou registros reais.
 
-Correção de manutenção em 30/10/2026: Vite atualizado para 6.4.5, corrigindo o GHSA-8g5g-mxqh-grgj.
+## Como funciona
 
-[Notas da versão](RELEASES.md). A numeração identifica a aplicação privada apresentada aqui.
+- **Ordens de serviço:** cadastro rápido, continuação e edição, conclusão validada e histórico de alterações. Novos registros vão para OS Geral, inclusive com datas retroativas; os antigos permanecem na origem.
+- **Dashboard:** totais, conclusão, evolução mensal, categorias estimadas e unidades/setores. Variações de maiúsculas são agrupadas na exibição, preservando a planilha original. A área Registros para revisar permite conferir datas inválidas e unidades não informadas.
+- **Recorrências:** agrupamentos por local e tipo de equipamento, com causas registradas e limites explícitos quando faltam informações.
+- **Base de Conhecimento:** comandos Windows, procedimentos, casos atípicos e artigos pessoais. Filtros por sistema, favoritos e vínculo com a OS de origem. Artigos pessoais e favoritos sincronizam em uma aba separada do Google Sheets.
+- **Gemini opcional:** contexto passa por revisão de privacidade antes de qualquer envio; a biblioteca não é enviada automaticamente.
+- **Acesso privado:** Google OAuth, sessão por inatividade, gerenciamento de dispositivos e controle explícito de navegador confiável. A autenticação adicional é decidida pelo Google.
 
-**Desenvolvimento autoral • Aplicação Web • Integração de APIs • Inteligência Artificial**
+## Tecnologias e decisões
 
-## Sobre o projeto
+React, TypeScript e CSS no frontend; Node.js e Express no backend. Google OAuth e Google Sheets para autenticação e dados; Gemini sob demanda. Hospedagem no Render e versionamento no GitHub.
 
-Desenvolvi uma aplicação web de uso pessoal com o objetivo de aplicar conhecimentos de desenvolvimento de software, organização de informações técnicas, automação e integração entre sistemas.
+A planilha continua como armazenamento principal. Os indicadores são derivados dos registros existentes, sem reescrever automaticamente textos ou completar campos desconhecidos. Categorias e identificação de sistemas são estimativas, não métricas de diagnóstico homologadas.
 
-O projeto foi desenvolvido para funcionar em ambiente privado, com autenticação de acesso e recursos de consulta inteligente.
+## Exemplo fictício
 
-## Tecnologias utilizadas
+Uma OS de impressora pode ser registrada rapidamente e complementada após os testes. O dashboard apresenta seu estado; um procedimento incomum pode originar um rascunho de artigo, revisado antes de integrar a biblioteca. Este exemplo não representa um chamado real.
 
-**Frontend:** React, TypeScript, JavaScript e CSS.
+## Privacidade e limites
 
-**Backend:** Node.js e Express.
+Código-fonte, credenciais, configurações privadas e dados operacionais permanecem no ambiente privado. Não são fornecidos pacientes, usuários, chamados reais ou acesso ao sistema. A ilustração disponível no portfólio usa dados fictícios.
 
-**Integrações:** Google OAuth 2.0, Google APIs e Gemini API.
+A versão documentada descreve a revisão de código; a versão em produção deve ser conferida no rodapé da aplicação. Testes locais e simulações não comprovam disponibilidade contínua das integrações externas.
 
-**Infraestrutura:** GitHub, Render e serviços em nuvem.
-
-## Competências aplicadas
-
-- Desenvolvimento de aplicação web responsiva.
-- Integração entre frontend, backend e APIs externas.
-- Autenticação e controle de acesso.
-- Configuração de ambiente de produção e deploy.
-- Organização, pesquisa e processamento de informações.
-- Integração com inteligência artificial.
-- Monitoramento de consumo de tokens.
-- Revisão de código, tratamento de erros e boas práticas de segurança.
-
-## Resultados
-
-A aplicação está funcional em ambiente privado, com recursos de consulta, gestão de OS, análise de recorrências, exportação CSV e diagnóstico assistido por IA após revisão.
-
-O projeto também proporcionou experiência prática com configuração de serviços, depuração de integrações, testes e manutenção contínua.
-
-## Privacidade
-
-Este repositório é exclusivamente uma apresentação profissional.
-
-O código-fonte completo, as configurações de produção, as credenciais e os dados utilizados pela aplicação permanecem privados.
-
-**Não são disponibilizados arquivos de dados, informações reais de usuários ou acesso à aplicação.**
-
----
-
-*Projeto autoral desenvolvido para aprendizado contínuo e evolução profissional em Tecnologia da Informação.*
-
-
-Manutenção de 30/10/2026: bibliotecas compatíveis atualizadas e verificações de regressão executadas. [Relatório completo dos projetos](https://github.com/Costa-dias/Portofolio/blob/main/docs/ATUALIZACOES_TODOS_OS_PROJETOS_2026-10-30.md).
-
-
-## Atualizações de 01/11/2026
-
-- Menu Pendências com contador e separação de registros sem informação de conclusão.
-- Indicador de OS nos últimos dias com período editável, começando em 30 dias.
-- Contagem de menções aos sistemas MV e Biomega nos registros.
-- Consumo diário de tokens informado pela API Gemini, registrado neste navegador; não representa saldo da franquia nem sincronização entre dispositivos.
-- “Feito e testado” reconhece a execução e validação com o usuário.
-- Edição de datas antigas com ano curto e conclusão retroativa em outro mês, na mesma aba e linha.
-
-Os exemplos públicos não expõem chamados ou dados privados. A análise com Gemini depende de revisão prévia e autorização.
+[Notas da evolução](RELEASES.md).
