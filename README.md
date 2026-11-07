@@ -1,6 +1,6 @@
 # Assistente de TI — apresentação profissional
 
-**Versão documentada: 3.2.0 · revisão em 06/11/2026**
+**Versão documentada: 3.2.0 · revisão da documentação em 07/11/2026**
 
 Aplicação privada desenvolvida para organizar atendimentos de TI, consultar soluções anteriores e manter uma biblioteca técnica. Esta apresentação não oferece acesso à aplicação nem divulga código privado ou registros reais.
 
@@ -12,6 +12,10 @@ Aplicação privada desenvolvida para organizar atendimentos de TI, consultar so
 - **Base de Conhecimento:** comandos Windows, procedimentos, casos atípicos e artigos pessoais. Filtros por sistema, favoritos e vínculo com a OS de origem. Artigos pessoais e favoritos sincronizam em uma aba separada do Google Sheets.
 - **Gemini opcional:** contexto passa por revisão de privacidade antes de qualquer envio; a biblioteca não é enviada automaticamente.
 - **Acesso privado:** Google OAuth, sessão por inatividade, gerenciamento de dispositivos e controle explícito de navegador confiável. A autenticação adicional é decidida pelo Google.
+
+## Minha participação
+
+Identifiquei necessidades da minha rotina de suporte, defini campos e fluxos e validei o uso. O desenvolvimento utiliza apoio de IA, com revisão e ajustes a partir dos testes. A apresentação pública não divulga dados internos nem atribui resultados operacionais não medidos.
 
 ## Tecnologias e decisões
 
@@ -25,7 +29,7 @@ Uma OS de impressora pode ser registrada rapidamente e complementada após os te
 
 ## Privacidade e limites
 
-Código-fonte, credenciais, configurações privadas e dados operacionais permanecem no ambiente privado. Não são fornecidos pacientes, usuários, chamados reais ou acesso ao sistema. A ilustração disponível no portfólio usa dados fictícios.
+Código-fonte, credenciais, configurações privadas e dados operacionais permanecem no ambiente privado. Não são fornecidos pacientes, usuários, chamados reais ou acesso ao sistema. O portfólio apresenta uma captura real do formulário vazio, sem dados pessoais ou relatos de atendimentos. A demonstração interativa usa dados fictícios.
 
 A versão documentada descreve a revisão de código; a versão em produção deve ser conferida no rodapé da aplicação. Testes locais e simulações não comprovam disponibilidade contínua das integrações externas.
 
